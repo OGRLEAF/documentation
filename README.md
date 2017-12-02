@@ -12,7 +12,7 @@ Nextcloud仅提供了英文文档，为了方便国内的想尝试Nextcloud朋�
 - 使用MarkDown撰写
 - 内容格式与官方文档基本对应
 - 图片尽量更换为含中文的图片
-- 鉴于中文与英文存在较大差异，个别句子、段落可以意译
+- 由于中文与英文存在较大差异，个别句子、段落采取意译
 
 ## 已汉化的文档
 ```
@@ -25,45 +25,6 @@ Nextcloud仅提供了英文文档，为了方便国内的想尝试Nextcloud朋�
 │  │  └─ mysql_4byte_support.rst
 │  ├─ configuration_files
 │  │  ├─ external_storage
-│  │  │  ├─ images
-│  │  │  │  ├─ add_storage.png
-│  │  │  │  ├─ amazons3.png
-│  │  │  │  ├─ applicable.png
-│  │  │  │  ├─ auth_mechanism.png
-│  │  │  │  ├─ auth_rsa.png
-│  │  │  │  ├─ authentication-types.png
-│  │  │  │  ├─ dropbox-1.png
-│  │  │  │  ├─ dropbox-2.png
-│  │  │  │  ├─ dropbox-3.png
-│  │  │  │  ├─ dropbox-4.png
-│  │  │  │  ├─ dropbox-5.png
-│  │  │  │  ├─ dropbox-6.png
-│  │  │  │  ├─ dropbox-oc.png
-│  │  │  │  ├─ dropbox.png
-│  │  │  │  ├─ enable-app.png
-│  │  │  │  ├─ ftp.png
-│  │  │  │  ├─ google-drive-sdk.png
-│  │  │  │  ├─ google-drive.png
-│  │  │  │  ├─ google-drive1.png
-│  │  │  │  ├─ google-drive10.png
-│  │  │  │  ├─ google-drive11.png
-│  │  │  │  ├─ google-drive12.png
-│  │  │  │  ├─ google-drive13.png
-│  │  │  │  ├─ google-drive2.png
-│  │  │  │  ├─ google-drive3.png
-│  │  │  │  ├─ google-drive4.png
-│  │  │  │  ├─ google-drive5.png
-│  │  │  │  ├─ google-drive6.png
-│  │  │  │  ├─ google-drive7.png
-│  │  │  │  ├─ google-drive8.png
-│  │  │  │  ├─ google-drive9.png
-│  │  │  │  ├─ local.png
-│  │  │  │  ├─ mount_options.png
-│  │  │  │  ├─ openstack.png
-│  │  │  │  ├─ rackspace.png
-│  │  │  │  ├─ smb.png
-│  │  │  │  ├─ user_mounts.png
-│  │  │  │  └─ webdav.png
 │  │  │  ├─ amazons3.rst
 │  │  │  ├─ auth_mechanisms.rst
 │  │  │  ├─ dropbox.rst
@@ -75,30 +36,6 @@ Nextcloud仅提供了英文文档，为了方便国内的想尝试Nextcloud朋�
 │  │  │  ├─ sftp.rst
 │  │  │  ├─ smb.rst
 │  │  │  └─ webdav.rst
-│  │  ├─ images
-│  │  │  ├─ admin_filehandling-1.png
-│  │  │  ├─ admin_filehandling-2.png
-│  │  │  ├─ create_public_share-10.png
-│  │  │  ├─ create_public_share-6.png
-│  │  │  ├─ create_public_share-8.png
-│  │  │  ├─ create_public_share-9.png
-│  │  │  ├─ enable-app.png
-│  │  │  ├─ encryption1.png
-│  │  │  ├─ encryption10.png
-│  │  │  ├─ encryption12.png
-│  │  │  ├─ encryption14.png
-│  │  │  ├─ encryption15.png
-│  │  │  ├─ encryption3.png
-│  │  │  ├─ encryption7.png
-│  │  │  ├─ encryption8.png
-│  │  │  ├─ encryption9.png
-│  │  │  ├─ federated-sharing.png
-│  │  │  ├─ federation-0.png
-│  │  │  ├─ federation-1.png
-│  │  │  ├─ federation-2.png
-│  │  │  ├─ federation-3.png
-│  │  │  ├─ sharing-files-1.png
-│  │  │  └─ sharing-files-2.png
 │  │  ├─ big_file_upload_configuration.rst ->大文件上传配置.md
 │  │  ├─ default_files_configuration.rst
 │  │  ├─ encryption_configuration.rst
@@ -130,7 +67,7 @@ Nextcloud仅提供了英文文档，为了方便国内的想尝试Nextcloud朋�
 │  │  ├─ logging_configuration.rst
 │  │  ├─ occ_command.rst                -> OCC命令.md
 │  │  ├─ reverse_proxy_configuration.rst
-│  │  ├─ security_setup_warnings.rst    
+│  │  ├─ security_setup_warnings.rst    -> 安全设置警告.md
 │  │  ├─ server_tuning.rst
 │  │  ├─ sso_configuration.rst
 │  │  ├─ theming.rst
@@ -175,7 +112,7 @@ Nextcloud仅提供了英文文档，为了方便国内的想尝试Nextcloud朋�
 │  │  ├─ index.rst
 │  │  ├─ manual_upgrade.rst
 │  │  ├─ migrating.rst
-│  │  ├─ migrating_owncloud.rst
+│  │  ├─ migrating_owncloud.rst  ->从ownCloud迁移（需修正）.md
 │  │  ├─ package_upgrade.rst
 │  │  ├─ restore.rst
 │  │  ├─ update.rst
