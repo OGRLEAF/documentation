@@ -1,6 +1,6 @@
 all: html pdf
 
-html: admin-manual-html user-manual-html user-manual-de-html developer-manual-html
+html: admin-manual-html user-manual-html user-manual-de-html developer-manual -html
 pdf: admin-manual-pdf user-manual-pdf user-manual-de-pdf developer-manual-pdf
 
 admin-manual-html:
